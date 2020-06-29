@@ -1,0 +1,121 @@
+@media  screen and (max-width: 800px) {
+    nav{
+        min-height: 10vh;
+        position: fixed;
+        background: #24ad62;
+        z-index: 1;
+    }
+    .nav-links{
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        top: 3.8rem;
+        background:#24ad62;
+        right: -1000px;
+        width: 100%;
+        justify-content: center;
+        transition: 1s ease-in all;
+    
+    }
+    .tabel{
+        display: flex;
+        flex-direction: column;   
+    }
+    .title{
+        
+        font-size: 1.3rem;
+        
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .text h4 {
+        font-size: 1rem;
+        padding-top: 1rem ;
+        
+    }
+    .text{
+        
+        background: #ffffff;
+        color: #114b2b ;
+        width: 100%;
+        padding: 1rem;
+        
+        
+    }
+    .container1{
+        min-height: 100vh;
+        
+    }
+    .container1 img{
+        width: 100px;
+        margin-top: 3rem;
+        object-fit: cover;
+        filter: grayscale(100%);
+    }
+       .text p {
+           font-size: 0.8rem;
+       }
+  
+    .nav-links a{
+        color: white;
+        padding: 3rem 0;
+    }
+    .active{
+        right: 0px;
+    }
+    .burger{
+        width: 2.5rem;
+    margin: 1rem 2rem;
+    cursor: pointer;
+       
+       }
+       .burger div{
+           background-color: rgb(0, 0, 0);
+           margin: 0.3rem;
+           height: 0.2rem;
+           
+       }
+       .line1{
+           width: 100%;
+           
+       }
+       .line2{
+           width: 70%;
+           
+       }
+       .line3{
+           width: 30%;
+           
+       }
+      
+       .container1 img{
+           width: 300px;
+           padding:  0;
+           padding-top: 2rem;
+       }
+       .container2 p{
+           padding:  2rem;
+       }
+       .images{
+           flex-direction: column;
+       }
+       .container3 img{
+        width: 300px;
+        
+     }
+     .pdfs{
+        display: flex;
+        flex-direction: row;
+    }
+    .pdfs div{
+        display: flex;
+        flex-direction: column;
+    }
+   
+    }
+     @media  screen and (max-width: 1200px) {
+        .container3 img{
+            width: 300px;
+            
+         }
+    } 
