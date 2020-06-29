@@ -65,8 +65,9 @@
     }
     .burger{
         width: 2.5rem;
-    margin: 1rem 2rem;
-    cursor: pointer;
+        margin: 1rem 2rem;
+        cursor: pointer;
+       
        
        }
        .burger div{
